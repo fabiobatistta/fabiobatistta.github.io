@@ -1,0 +1,902 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; 
+}
+
+header {
+    background-color: #3b6dd8;
+    color: white;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+blockquote{
+    padding-left: 19%;
+    padding-right: 19%;
+}
+
+#itens {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #3b6dd8;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    #itens {
+        display: block;
+        position: static;
+        border: none;
+        padding: 0;
+    }
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+
+}
+
+
+
+.logo img {
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.menu-toggle {
+    display: none; /* Esconder por padrão em telas maiores */
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+
+
+.menu2{
+    background-color: #c90000;
+    overflow: hidden;
+    width: auto;
+    display: flex;
+}
+
+.menu2 a {
+    color: white;
+    padding: 1.2% 5.76% 1.2% 5.76%;
+    float: left;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.deficiencias{
+    
+    background-color: #c90000;
+    color: white;
+    padding: 1.2% 5.76% 1.2% 5.76%;
+    float: left;
+    display: flex;
+    text-decoration: none;
+    border: #c90000;
+    overflow: hidden;
+    text-rendering: auto;
+    font-size: medium;
+    appearance: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+    .menu2  {
+        flex-direction: column;
+        width: flex;
+    }
+
+    .deficiencias {
+        flex-direction: column;
+        width: flex;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .deficiencias {
+        align-items: center;
+        width: flex;
+    }
+
+    .menu2{
+        width: flex; 
+    }
+    
+}
+
+
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Tamanho da fonte do menu */
+    display: flex;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff; /* Branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+
+
+
+/*Aqui começa o CSS da página de Comunidade*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*.word-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    
+  }*/
+
+  .word-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+  
+  /*.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+  }*/
+
+  .arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a rotação */
+}
+
+  .lorem {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black; /* Adiciona uma linha divisória entre "Ansiedade" e o texto Lorem */
+}
+  
+.text {
+    margin-right: 10px;
+  }
+
+.container1 {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+}
+.image1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+  .text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Ajuste a cor conforme necessário */
+    font-size: 2.5vw; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: Arial, sans-serif; /* Ajuste a fonte conforme necessário */
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+  
+.lorem.hidden {
+    display: none;
+  }
+  
+.arrow-up {
+    transform: rotate(180deg);
+  }
+
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow2 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem2 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text2 {
+    margin-right: 10px;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.arrow-up2 {
+    transform: rotate(180deg);
+}
+
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow3 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem3 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text3 {
+    margin-right: 10px;
+}
+
+.hidden3 {
+    display: none;
+}
+
+.arrow-up3 {
+    transform: rotate(180deg);
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow4 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem4 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text4 {
+    margin-right: 10px;
+}
+
+.hidden4 {
+    display: none;
+}
+
+.arrow-up4 {
+    transform: rotate(180deg);
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container5 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow5 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem5 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text5 {
+    margin-right: 10px;
+}
+
+.hidden5 {
+    display: none;
+}
+
+.arrow-up5 {
+    transform: rotate(180deg);
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container6 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow6 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem6 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text6 {
+    margin-right: 10px;
+}
+
+.hidden6 {
+    display: none;
+}
+
+.arrow-up6 {
+    transform: rotate(180deg);
+}
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container7 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow7 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem7 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text7 {
+    margin-right: 10px;
+}
+
+.hidden7 {
+    display: none;
+}
+
+.arrow-up7 {
+    transform: rotate(180deg);
+}
+
+.container8 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container8 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow8 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem8 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text8 {
+    margin-right: 10px;
+}
+
+.hidden8 {
+    display: none;
+}
+
+.arrow-up8 {
+    transform: rotate(180deg);
+}
+
+.container9 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container9 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow9 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem9 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text9 {
+    margin-right: 10px;
+}
+
+.hidden9 {
+    display: none;
+}
+
+.arrow-up9 {
+    transform: rotate(180deg);
+}
+
+.container10 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container10 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow10 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem10 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text10 {
+    margin-right: 10px;
+}
+
+.hidden10 {
+    display: none;
+}
+
+.arrow-up10 {
+    transform: rotate(180deg);
+}
+
+.container11 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container11 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow11 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem11 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text11 {
+    margin-right: 10px;
+}
+
+.hidden11 {
+    display: none;
+}
+
+.arrow-up11 {
+    transform: rotate(180deg);
+}
+
+.container12 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-container12 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrow12 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lorem12 {
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-top: 1px solid black;
+}
+
+.text12 {
+    margin-right: 10px;
+}
+
+.hidden12 {
+    display: none;
+}
+
+.arrow-up12 {
+    transform: rotate(180deg);
+}
+/*Aqui termina o CSS da página de Comunidade*/
+
+footer {
+    background-color: #3b6dd8; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Estilos específicos */
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+.banner h2 {
+    color: black;
+}
+/*Fabio*/
+.banner3 {
+    display: block;
+    width: 300px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    background-size: cover; /* Ajuste a imagem para cobrir o banner */
+    background-position: center; /* Centralize a imagem */
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.banner-text {
+    margin-top: 10px;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-wrapper {
+    margin: 10px;
+    text-align: center;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.hidden30 {
+    display: none;
+}
+.no-style-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.h3-veja {
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.central-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  Garante que o contêiner ocupe toda a altura da viewport */
+}
+
+.veja-mais-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.veja-mais-btn p {
+    color: #353535; /* Cor branca para o texto */
+    margin: 0; /* Remove margens padrão do H2 */
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    text-decoration: underline;
+}
+
+.veja-mais-btn:hover {
+    background-color: #00000034; /* Cor mais escura para o efeito hover */
+    border-radius: 10px;
+    color:#ffffff;
+}
+
+.veja-mais-btn:hover p{
+    color:#ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #3b6dd8;
+    padding: 20px;
+    text-align: start;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 400px;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-column a {
+    /*color: #0000FF; Cor azul para os links */
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.btn-cadastro {
+    
+    color: #FFFFFF; /* Cor do texto branca */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-cadastro:hover {
+    background-color: #CC0000; /* Cor vermelha mais escura no hover */
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.contact-icon {
+    width: 16px; /* Largura do ícone */
+    height: 16px; /* Altura do ícone */
+    vertical-align: middle; /* Alinha o ícone com o texto */
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}
+
+/*Fabio*/
+
+.formulario {
+    text-align: center;
+}
+
+.formulario form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario label,
+.formulario input,
+.formulario textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario input[type="submit"] {
+    background-color: #3b6dd8; /* Azul escuro */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #3b6dd8; 
+}
+
+/* Estilos para telas menores (menos de 768px) */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Mostrar menu hamburger em telas menores */
+    }
+
+    nav ul {
+        display: none; /* Esconder o menu por padrão em telas menores */
+        flex-direction: column;
+        background-color: #3b6dd8;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+
+    nav ul.open {
+        display: flex; /* Mostrar o menu quando o ícone do menu é clicado */
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

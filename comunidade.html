@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcurt icon" href="logo7.ico">
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <img src="logo7.png" alt="Logo ComfortCares">
+        </div>
+        <h1>ComfortCares: Recursos para Cuidadores</h1>
+        <i style="background-color: #c90000; padding: 5px 5px 5px 5px; margin-right: 5%; border: 3px solid blue;" id="burger" class="material-symbols-outlined" onclick="clickMenu()" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">menu</i>
+        <nav id="itens">
+            <ul>
+                <li><a style="background-color: #c90000; padding: 15px 20px 15px 20px;" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'" href="cadastre-se.html">Cadastre-se</a></li>
+                <li><a style="background-color: #c90000; padding: 15px 20px 15px 20px;" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'" href="login.html">Login</a></li>
+                <li><a style="background-color: #c90000; padding: 15px 20px 15px 20px;" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'" href="sair.html">Sair</a></li>
+            </ul>
+        </nav>
+      
+    </header>
+    <nav class="menu2">
+        <a href="index.html" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">Home</a>
+        <a href="sobre.html" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">Sobre</a>
+        
+       <select class="deficiencias" name="Deficiências" onchange="if (this.value) window.location.href=this.value;" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">
+        <option selected disabled>Deficiências</option>
+        <option value="ansiedade.html">Ansiedade</option>
+        <option value="autismo.html">Autismo</option>
+        <option value="daltonismo.html">Daltonismo</option>
+        <option value="esquizofrenia.html">Esquizofrenia</option>
+        <option value="microcefalia.html">Microcefalia</option>
+        <option value="obesidade.html">Obesidade</option>
+        <option value="paralisiacerebral.html">Paralisia Cerebral</option>
+        <option value="sindromedeasperger.html">Sí. de Asperger</option>
+        <option value="sindromededown.html">Sí. de Down</option>
+        <option value="sindromedetourette.html">Sí. de Tourette</option>
+        <option value="tdah.html">TDAH</option>
+        <option value="tremoressencial.html">Tremor Essencial</option>
+    </select>
+        <a href="comunidade.html" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">Comunidade</a>
+        <a href="quemsomos.html" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">Quem somos</a>
+        <a href="contato.html" onmouseover="this.style.backgroundColor='darkred'" onmouseout="this.style.backgroundColor='#c90000'">Contato</a>
+    </nav>
+    <br><br> 
+    <h1 style="text-align: center;">Locais de Tratamento em São Paulo - SP</h1><hr><br><br>
+
+
+    <blockquote style="padding-left: 0%; padding-right: 0%;">
+        
+
+        <div class="container" onclick="toggleLorem()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+            <div class="word-container" id="wordContainer">
+                <span class="text" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Ansiedade</h2></span>
+                <div class="lorem hidden">
+                    <h3>Aqui estão listados 5 locais de tratamento para Ansiedade em São Paulo - SP:</h3>
+                    <br>
+
+                    <h4>Pause Psicologia de Roger Oliveira:</h4>
+                    <p>WhatsApp: (11) 97333-8485</p>
+                    <p>E-mail: contato@pausepsicologia.com.br</p>
+                    <p>Endereço: Rua Arcipreste Andrade, 727 - cj.113 - Ipiranga</p>
+                    <p>São Paulo - SP - CEP: 04268-020</p>
+                    <p>Site: https://pausepsicologia.com.br/</p>
+                    <br>
+
+                    <h4>Atelier da Mente de Katherine Avellar:</h4>
+                    <p>WhatsApp: (11) 95308-7547</p>
+                    <p>Endereço: Rua Paulistânia, 242 - Conj. 44, Sumaré, São Paulo - SP</p>
+                    <p>Ao lado do Metrô Vila Madalena</p>
+                    <p>Site: https://atelierdamente.com.br/</p>
+                    <br>
+
+
+                    <h4>Dr. Vitor Cavenaghi (Psiquiatria):</h4>
+                    <p>Telefone: (11) 4240-7777</p>
+                    <p>WhatsApp: (11) 91015-7774</p>
+                    <p>E-mail: atendimento@vitorcavenaghi.com.br</p>
+                    <p>Endereço: Rua Oscar Freire, 2250 - Conj. 407, Pinheiros</p>
+                    <p>São Paulo - SP, CEP: 05409-011</p>
+                    <p>Site: https://www.vitorcavenaghi.com.br/index.php</p>
+                    <br>
+
+                    <h4>Instituto de Psiquiatria Paulista:</h4>
+                    <p>WhatsApp: (11) 99191-2061</p>
+                    <p>Telefone: (11) 3262-3468</p>
+                    <p>Endereço: Av. Paulista, 326, 11º andar, Bela Vista, São Paulo - SP</p>
+                    <p>Site: https://psiquiatriapaulista.com.br/</p>
+                    <br>
+
+                    <h4>Cognicom:</h4>
+                    <p>WhatsApp: (11) 94228-8002</p>
+                    <p>E-mail: cognicompsic@gmail.com</p>
+                    <p>Endereço: Av. Professor Alfonso Bovero, 1057 - cj 122 - Pompeia</p>
+                    <p>São Paulo - SP | CEP: 05019-011</p>
+                    <p>Site: https://www.cognicom.com.br/index.php</p>
+                    <br>
+
+
+                    
+                </div>
+                <div class="arrow" id="toggleArrow">&#9660;</div>
+            </div>
+        </div>
+        
+          <br>
+          <br>
+
+          
+
+        <div class="container2" onclick="toggleLorem2()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+            <div class="word-container2" id="wordContainer2">
+                <span class="text2" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Autismo</h2></span>
+                <div class="lorem2 hidden2">
+                    <h3>Aqui estão listados 5 locais de tratamento para Autismo em São Paulo - SP:</h3>
+                    <br>
+
+                    <h4>Parsifal:</h4>
+                    <p>Telefone: (11) 5547-0201 ou (11) 5523-1487</p>
+                    <p>E-mail: parsifal@parsifal.org.br</p>
+                    <p>Endereço: Rua Robélia, 59 - Jardim Prudência</p>
+                    <p>CEP: 04648-240 | São Paulo - SP</p>
+                    <p>Site: https://parsifal.org.br/</p>
+                    <br>
+
+                    <h4>STIMULAR - CLÍNICA MULTIDISCIPLINAR:</h4>
+                    <p>WhatsApp: +55 (11) 99235-3394</p>
+                    <p>Endereço: R. Conselheiro Brotero, 1505 - 10º andar - Santa Cecilia, São Paulo - SP</p>
+                    <p>Site: https://clinica.stimular.com.br/</p>
+                    <br>
+
+                    <h4>Próximo Degrau:</h4>
+                    <p>WhatsApp: +55 (11) 99434-3465</p>
+                    <p>Endereço: Av. Sagitário 717 - Alphaville Conde I - Barueri </p>
+                    <p>São Paulo - SP | CEP: 06473-075</p>
+                    <p>Site: https://www.proximodegrau.com.br/</p>
+                    <br>
+
+                    <h4>Instituto TEA:</h4>
+                    <p>Telefone:  (11) 98801-6675</p>
+                    <p>Endereço: Av. Engenheiro Luis Carlos Berrini, 550 - 12 andar - cj 121 (Itaim)</p>
+                    <p>São Paulo - SP | CEP: 04571-925</p>
+                    <p>Site: https://institutotea.com.br/</p>
+                    <br>
+
+                    <h4>TatuTEA:</h4>
+                    <p>WhatsApp: (11) 97673-7558</p>
+                    <p>Telefone: (11) 3796-0084</p>
+                    <p>Endereço: Rua São Bernardo, 758 (Tatuapé)</p>
+                    <p>São Paulo - SP | CEP: 03304-000</p>
+                    <p>Site: https://www.tatutea.com.br/</p>
+                    <br>
+
+
+                </div>
+                <div class="arrow2" id="toggleArrow2">&#9660;</div>
+            </div>
+        </div>
+        
+    <br><br>
+
+    <div class="container3" onclick="toggleLorem3()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container3" id="wordContainer3">
+            <span class="text3" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Daltonismo</h2></span>
+            <div class="lorem3 hidden3">
+                <h3>Aqui estão listados 5 locais de tratamento para Daltonismo em São Paulo - SP:</h3>
+                <br>
+
+                    <h4>Clínica da Cidade:</h4>
+                    <p>Telefone: (11) 5564-1949</p>
+                    <p>WhatsApp: (11) 98907-1234</p>
+                    <p>E-mail: ouvidoria@clinicadacidade.com.br</p>
+                    <p>Endereço: Avenida Santa Catarina, 2165 - Vila Mascote, São Paulo - SP</p>
+                    <p>Site: https://clinicadacidade.com.br/</p>
+                    <br>
+
+                    <h4>IMO (Instituto de Moléstias Oculares):</h4>
+                    <p>Telefone: (11) 5573-6424</p>
+                    <p>WhatsApp: (11) 98644-0072</p>
+                    <p>E-mail: imo@imo.com.br</p>
+                    <p>Endereço: Av. Ibiapuera, 624 - Ibiapuera</p>
+                    <p>São Paulo | CEP: 04028-000</p>
+                    <p>Site: https://imo.com.br/</p>
+                    <br>
+
+                    <h4>Clínica Lividi:</h4>
+                    <p>Telefone: (11) 3803-7650</p>
+                    <p>WhatsApp: (11) 98208-1152</p>
+                    <p>E-mail: contato@clinicalividi.com.br</p>
+                    <p>Endereço: Rua Cayowaá, nº 1071, conjunto 161 - Perdizes, São Paulo/SP</p>
+                    <p>Site: http://www.clinicalividi.com.br/</p>
+                    <br>
+
+                    <h4>CERPO:</h4>
+                    <p>Telefone: (11) 4126-6666</p>
+                    <p>Endereço: Rua Abílio Soares, 218, Paraíso</p>
+                    <p>São Paulo / SP | Próximo à Estação Paraíso do Metrô</p>
+                    <p>Site: https://www.cerpo.com.br/</p>
+                    <br>
+
+                    <h4>SBOP (Sociedade Brasileira de Oftalmologia Pediátrica):</h4>
+                    <p>E-mail: secretaria@sbop.com.br</p>
+                    <p>Endereço: Rua Casa do Ator, 1117 | Cj 21 Vila Olimpia</p>
+                    <p>São Paulo - SP | CEP: 04546-004</p>
+                    <p>Site: https://sbop.com.br/paciente/</p>
+                    <br>
+
+                    
+                    
+
+
+
+            </div>
+            <div class="arrow3" id="toggleArrow3">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container4" onclick="toggleLorem4()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container4" id="wordContainer4">
+            <span class="text4" style="padding-left: 1%;  padding-bottom: 1%; padding-top: 1%;"><h2>Esquizofrenia</h2></span>
+            <div class="lorem4 hidden4">
+                <h3>Aqui estão listados 5 locais de tratamento para Esquizofrenia em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Clínica MAIA:</h4>
+                    <p>Telefone:  (11) 5081-8819</p>
+                    <p>WhatsApp:  (11) 98791-2214</p>
+                    <p>Endereço: Rua Dr. Nicolau de Sousa Queirós, 189</p>
+                    <p>Vila Mariana | São Paulo - SP</p>
+                    <p>Site: https://www.clinicamaia.com.br/</p>
+                    <br>
+
+                    <h4>Clínicas VIVER:</h4>
+                    <p>WhatsApp: (11) 98242-2898</p>
+                    <p>E-mail: clinicaderecuperacaoviver1@gmail.com</p>
+                    <p>Site: https://clinicaderecuperacaoviver.com.br/index</p>
+                    <br>
+
+                    <h4>Hospital Santa Mônica:</h4>
+                    <p>WhatsApp: (11) 98596-1204</p>
+                    <p>Endereço: Centro de Cuidados em Saúde Mental do Hospital Santa Mônica - Rua Bertioga, 55 - Chácara Inglesa</p>
+                    <p>CEP: 04141-100 | São Paulo - SP</p>
+                    <p>Site: https://hospitalsantamonica.com.br/</p>
+                    <br>
+
+                    <h4>Prime House:</h4>
+                    <p>Telefone: (11) 2507-8636</p>
+                    <p>WhatsApp: (11) 98953-4864</p>
+                    <p>E-mail: contato@clinicaprimehouse.com.br</p>
+                    <p>Endereço: Av. Lineu de Paula Machado, 1174 - Jd. Everest</p>
+                    <p>São Paulo - SP | CEP: 05601-001</p>
+                    <p>Site: https://www.clinicaprimehouse.com.br/index.html</p>
+                    <br>
+
+                    <h4>Instituto Aron:</h4>
+                    <p>Telefone: (11) 99598-8626</p>
+                    <p>WhatsApp: (11) 99598-8626</p>
+                    <p>E-mail: contato@institutoaron.com.br</p>
+                    <p>Site: https://www.institutoaron.com.br/</p>
+                    <br>
+            </div>
+            <div class="arrow4" id="toggleArrow4">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container5" onclick="toggleLorem5()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container5" id="wordContainer5">
+            <span class="text5" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Microcefalia</h2></span>
+            <div class="lorem5 hidden5">
+                <h3>Aqui estão listados 5 locais de tratamento para Microcefalia em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Sind Hosp:</h4>
+                    <p>WhatsApp: (11) 99755-3006</p>
+                    <p>Endereço: Av Brigadeiro Faria Lima, 1912 - 18º andar</p>
+                    <p>Site: https://sindhosp.org.br/</p>
+                    <br>
+
+                    <h4>Coren SP:</h4>
+                    <p>Telefone: (11) 3225-6300</p>
+                    <p>Endereço: Alameda Ribeirão Preto, 82, Bela Vista</p>
+                    <p>São Paulo - SP | CEP 01331-000</p>
+                    <p>Site: https://portal.coren-sp.gov.br/</p>
+                    <br>
+
+                    <h4>SciELO:</h4>
+                    <p>E-mail: scielo@scielo.org</p>
+                    <p>Endereço: Rua Dr. Diogo de Faria, 1087 - 9º andar - Vila Clementino</p>
+                    <p>CEP: 04037-003 | São Paulo/SP - Brasil</p>
+                    <p>Site: https://www.scielo.br/</p>
+                    <br>
+
+                    <h4>Vale Saúde:</h4>
+                    <p>Telefone: (11) 3003-0256</p>
+                    <p>Endereço: Av. Engenheiro Luis Carlos Berrini, 1.376 - Cidade Moções</p>
+                    <p>CEP: 04571-936 | São Paulo/SP - Brasil</p>
+                    <p>Site: https://www.valesaude.com.br/</p>
+                    <br>
+
+                    <h4>IBSP (Instituto Brasileiro para Segurança do Paciente):</h4>
+                    <p>Telefone: +55 (11) 3392-5169</p>
+                    <p>WhatsApp: +55 (11) 91213-0074</p>
+                    <p>Endereço: Avenida Marques de São Vicente, 446 - Sala 1601 Barra Funda</p>
+                    <p>São Paulo - SP - Brasil | CEP: 01139-000</p>
+                    <p>Site: https://ibsp.net.br/</p>
+                    <br>
+            </div>
+            <div class="arrow5" id="toggleArrow5">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container6" onclick="toggleLorem6()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container6" id="wordContainer6">
+            <span class="text6" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Obesidade</h2></span>
+            <div class="lorem6 hidden6">
+                <h3>Aqui estão listados 5 locais de tratamento para Obesidade em São Paulo - SP:</h3>
+                <br>
+
+                <h4>FGH Medicina e Saúde:</h4>
+                    <p>WhatsApp: (11) 99717-7493</p>
+                    <p>Endereço: Rua Pedroso Alvarenga, 584 - 3º andar - Itaim Bibi</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://fghmedicina.com.br/</p>
+                    <br>
+
+                    <h4>Clínica Dr. Fabrício Brito:</h4>
+                    <p>WhatsApp: (11) 99009-2518</p>
+                    <p>Endereço: Rua Estados Unidos, 808 - Jardim Paulista</p>
+                    <p>São Paulo - SP | CEP: 01427-001</p>
+                    <p>Site: https://clinicadrfabriciobrito.com.br/</p>
+                    <br>
+
+                    <h4>Obesimed:</h4>
+                    <p>Telefone: (11) 3846-4112</p>
+                    <p>E-mail: obesimed@obesimed.com.br</p>
+                    <p>Endereço: Rua Gomes de Carvalho, 1510 Conjunto 132 - Vila Olímpia</p>
+                    <p>São Paulo - SP | CEP: 04547-005</p>
+                    <p>Site: https://obesimed.com.br/</p>
+                    <br>
+
+                    <h4>Leforte:</h4>
+                    <p>Telefone: (11) 3723-4700</p>
+                    <p>E-mail: ouvidoria.hospitais@dasa.com.br</p>
+                    <p>Endereço: Rua dos Três Irmãos, 62 - Prédio West Tower - Morumbi | São Paulo - SP</p>
+                    <p>Site: https://leforte.com.br/</p>
+                    <br>
+
+                    <h4>Obesicenter:</h4>
+                    <p>Telefone: (11) 2061-7301</p>
+                    <p>Endereço: Rua Itapeva, 518 - CJ 509 Cerqueira César</p>
+                    <p>São Paulo/SP | CEP: 01332-000</p>
+                    <p>Site: https://www.obesicenter.com.br/</p>
+                    <br>
+            </div>
+            <div class="arrow6" id="toggleArrow6">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container7" onclick="toggleLorem7()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container7" id="wordContainer7">
+            <span class="text7" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Paralisia Cerebral</h2></span>
+            <div class="lorem7 hidden7">
+                <h3>Aqui estão listados 5 locais de tratamento para Paralisia Cerebral em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Sírio-Libanês:</h4>
+                    <p>Telefone: (11) 3394-5007</p>
+                    <p>Endereço: Rua Dona Adma Jafet, 115 - Bela Vista</p>
+                    <p>São Paulo - SP | CEP: 01308-050</p>
+                    <p>Site: https://hospitalsiriolibanes.org.br/</p>
+                    <br>
+
+                    <h4>Clínica Ortopédica Paulista:</h4>
+                    <p>Telefone: (11) 5687-1155</p>
+                    <p>WhatsApp: (11) 99166-8285</p>
+                    <p>E-mail: administracao@clinicaortopedicapaulista.com.br</p>
+                    <p>Endereço: Av. Adolfo Pinheiro, 2056 - Térreo - Brooklin Novo</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://clinicaortopedicapaulista.com.br/</p>
+                    <br>
+
+                    <h4>Sabará:</h4>
+                    <p>Telefone: (11) 3235-2800</p>
+                    <p>WhatsApp: (11) 3155-2800 ou (11) 94483-6237</p>
+                    <p>Endereço: Av. Angélica, 1987</p>
+                    <p>São Paulo - SP | CEP: 01228-200</p>
+                    <p>Site: https://www.hospitalinfantilsabara.org.br/</p>
+                    <br>
+
+                    <h4>AACD:</h4>
+                    <p>Telefone: (11) 5576-0777</p>
+                    <p>Endereço: Av. Professor Ascendino Reis, 724 - Ibirapuera </p>
+                    <p> São Paulo - SP | CEP: 04027-000</p>
+                    <p>Site: https://aacd.org.br/</p>
+                    <br>
+
+                    <h4>Medtronic:</h4>
+                    <p>Telefone: (11) 2182-9200</p>
+                    <p>Endereço: Av. Jornalista Roberto Marinho, 85, 10º andar</p>
+                    <p>São Paulo, SP | CEP: 04576-010</p>
+                    <p>Site: https://www.medtronic.com/br-pt/index.html</p>
+                    <br>
+            </div>
+            <div class="arrow7" id="toggleArrow7">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container8" onclick="toggleLorem8()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container8" id="wordContainer8">
+            <span class="text8" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Síndrome de Asperger</h2></span>
+            <div class="lorem8 hidden8">
+                <h3>Aqui estão listados 5 locais de tratamento para Síndrome de Asperger em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Psicólogo Com.Br:</h4>
+                    <p>Telefone: (11) 4861-2233</p>
+                    <p>WhatsApp: (11) 96863-2121</p>
+                    <p>E-mail: contato@psicologo.com.br</p>
+                    <p>Endereço: Av. das Nações Unidas, 14.401 - Torre Tarumã - Cjto 2012</p>
+                    <p>São Paulo-SP</p>
+                    <p>Site: https://www.psicologo.com.br/</p>
+                    <br>
+
+                    <h4> Dra. Aline Rangel:</h4>
+                    <p>WhatsApp: (11) 99588-8286</p>
+                    <p>E-mail: aline@apsiquiatra.com.br</p>
+                    <p>Endereço: Rua Cubatão, 86 - 405 - Paraíso</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://apsiquiatra.com.br/</p>
+                    <br>
+
+                    <h4>Mancini:</h4>
+                    <p>Telefone: (11) 2855-3596</p>
+                    <p>WhatsApp: (11) 96604-2762</p>
+                    <p>Endereço: Al. Joaquim Eugênio de Lima, 187 - cj.111 (a 2 quadras da av. Paulista) - Bela Vista</p>
+                    <p>São Paulo/SP</p>
+                    <p>Site: https://mancinipsiquiatria.com.br/</p>
+                    <br>
+
+                    <h4>Dr. Ivan Vargas:</h4>
+                    <p>Telefone: (11) 95340-9590</p>
+                    <p>WhatsApp: (11) 96784-8425</p>
+                    <p>E-mail: Contato@Ivanvargas.com.br</p>
+                    <p>Endereço: Av. Dr. Arnaldo, 1887 - Sumaré</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://www.ivanvargas.com.br/</p>
+                    <br>
+
+                    <h4>PROMOVE:</h4>
+                    <p>Telefone: (11) 2084-0105</p>
+                    <p>WhatsApp: (11) 94276-0843</p>
+                    <p>E-mail: contato@promoveici.com.br</p>
+                    <p>Endereço: Rua Sebastião Preto, 77</p>
+                    <p>Site: https://promoveici.com.br/</p>
+                    <br>
+            </div>
+            <div class="arrow8" id="toggleArrow8">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+   
+    <div class="container9" onclick="toggleLorem9()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container9" id="wordContainer9">
+            <span class="text9" style="padding-left: 1%;  padding-bottom: 1%; padding-top: 1%;"><h2>Síndrome de Down</h2></span>
+            <div class="lorem9 hidden9">
+                <h3>Aqui estão listados 5 locais de tratamento para Síndrome de Down em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Movimento Down:</h4>
+                    <p>Telefone: (11) 5088-6677</p>
+                    <p>WhatsApp: (11) 98849-8959</p>
+                    <p>E-mail: contato@elo21down.com.br</p>
+                    <p>Endereço: Rua Eça de Queiroz, 488, Paraíso</p>
+                    <p>São Paulo - SP | CEP: 04011-032</p>
+                    <p>Site: https://www.movimentodown.org.br/</p>
+                    <br>
+
+                    <h4>Garden Ville:</h4>
+                    <p>Telefone: (11) 2235-6993</p>
+                    <p>WhatsApp: (11) 93463-5474</p>
+                    <p>Endereço: Rua Itá, 381 - Horto Florestal</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://gardenvillesp.com.br/</p>
+                    <br>
+
+                    <h4>CDE (Clínica de Desenvolvimento Especializado):</h4>
+                    <p>Telefone: (11) 2295-5799 ou (11) 2091-6862</p>
+                    <p>E-mail: clinicacde@uol.com.br</p>
+                    <p>Endereço: Rua Antonio Camardo, 70 - Tatuapé</p>
+                    <p>São Paulo - SP | CEP: 03309-060</p>
+                    <p>Site: https://www.clinicacdesp.com/</p>
+                    <br>
+
+                    <h4>ADID (Associação para o Desenvolvimento Integral do Down):</h4>
+                    <p>Telefone: (11) 5542-5546</p>
+                    <p>WhatsApp: (11) 95771-8696</p>
+                    <p>E-mail: adid@adid.org.br</p>
+                    <p>Endereço: R. Guararapes, 864 - Brooklin</p>
+                    <p>São Paulo - SP | CEP: 04561-001</p>
+                    <p>Site: https://adid.org.br/</p>
+                    <br>
+
+                    <h4>HIDV (HOSPITAL INFANTIL DARCY VARGAS):</h4>
+                    <p>Telefone: (11) 3723-3700</p>
+                    <p>E-mail: hidv-faleconosco@saude.sp.gov.br</p>
+                    <p>Endereço: Rua Dr. Seráfico de Assis Carvalho, 34</p>
+                    <p>CEP: 05614-040 | São Paulo - SP</p>
+                    <p>Site: https://hidv.med.br/</p>
+                    <br>
+            </div>
+            <div class="arrow9" id="toggleArrow9">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container10" onclick="toggleLorem10()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container10" id="wordContainer10">
+            <span class="text10" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Síndrome de Tourette</h2></span>
+            <div class="lorem10 hidden10">
+                <h3>Aqui estão listados 5 locais de tratamento para Síndrome de Tourette em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Dr. Diego de Castro:</h4>
+                    <p>Telefone: (11) 3504-4304</p>
+                    <p>WhatsApp: (11) 98758-7663</p>
+                    <p>Endereço: R. Itapeva, 518 - sala 901 - Bela Vista</p>
+                    <p> São Paulo - SP | CEP: 01332-904</p>
+                    <p>Site: https://drdiegodecastro.com/</p>
+                    <br>
+
+                    <h4>Cecília Freytas:</h4>
+                    <p>Telefone: (11) 99601-2736</p>
+                    <p>WhatsApp: (11) 99601-2736</p>
+                    <p>E-mail: psicologa@ceciliafreytas.com.br</p>
+                    <p>Endereço: Av. das Nações Unidas, 18801 - Sala 1225 - Santo Amaro</p>
+                    <p>São Paulo-SP</p>
+                    <p>Site: https://ceciliafreytas.com.br/</p>
+                    <br>
+
+                    <h4>Dr. Erich Fonoff:</h4>
+                    <p>Telefone: +55 (11) 3237-2031 ou +55 (11) 3214-1557</p>
+                    <p>WhatsApp: (11) 97534-1912</p>
+                    <p>E-mail: contato@erichfonoff.com.br</p>
+                    <p>Endereço: Av. Pres. Juscelino Kubitschek, 50 - 16o andar - Vila Olímpia</p>
+                    <p>São Paulo - SP | CEP: 04543-000</p>
+                    <p>Site: https://www.erichfonoff.com.br/</p>
+                    <br>
+
+                    <h4>Psicóloga Fabíola Luciano:</h4>
+                    <p>Telefone: (11) 5589-9320</p>
+                    <p>WhatsApp: (11 95825-1348)</p>
+                    <p>E-mail: contato@psicologafabiola.com.br</p>
+                    <p>Endereço: Rua Martim de Sá, nº 65 - Vila Mariana</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://psicologafabiola.com.br/</p>
+                    <br>
+
+                    <h4>Dra. Paula Girotto:</h4>
+                    <p>Telefone: (11) 5575-8936 ou (11) 5574-9121</p>
+                    <p>WhatsApp: (11) 3522-9515</p>
+                    <p>Endereço: Rua Afonso Celso, 426 - Vila Mariana - Clínica Jarovsky</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://drapaulagirotto.com.br/</p>
+                    <br>
+            </div>
+            <div class="arrow10" id="toggleArrow10">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+   
+    <div class="container11" onclick="toggleLorem11()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container11" id="wordContainer11">
+            <span class="text11" style="padding-left: 1%;  padding-bottom: 1%; padding-top: 1%;"><h2>TDAH</h2></span>
+            <div class="lorem11 hidden11">
+                <h3>Aqui estão listados 5 locais de tratamento para TDAH em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Dr. Gustavo (Neurologista):</h4>
+                    <p>Telefone: (11) 4395-7923 ou (11) 97358-4580</p>
+                    <p>WhatsApp: (11) 97358-4580</p>
+                    <p>E-mail: contato@drgustavoneurologista.com</p>
+                    <p>Endereço: Av. Angélica, 2491 - 9° andar Bela Vista</p>
+                    <p>São Paulo - SP | CEP: 01227-200</p>
+                    <p>Site: https://www.drgustavoneurologista.com/</p>
+                    <br>
+
+                    <h4>Dra. Thais Mafra:</h4>
+                    <p>WhatsApp: (11) 91352-7275</p>
+                    <p>E-mail: drathaismafra@gmail.com</p>
+                    <p>Endereço: Rua Padre João Manuel, 222 - Cerqueira César</p>
+                    <p>São Paulo - SP | CEP: 01411-000</p>
+                    <p>Site: https://drathaismafra.com.br/#home</p>
+                    <br>
+
+                    <h4>IPDA (Instituto Paulista de Déficit de Atenção):</h4>
+                    <p>WhatsApp: (11) 98071-1181</p>
+                    <p>Site: https://dda-deficitdeatencao.com.br/</p>
+                    <br>
+
+                    <h4>Dr. Gabriel Lopes:</h4>
+                    <p>Telefone: (11) 3044-1690</p>
+                    <p>WhatsApp: (11) 94154-3929</p>
+                    <p>Endereço: Rua do Rocio, 423. Cj. 402. (Vila Olímpia)</p>
+                    <p>São Paulo - SP | CEP: 04548-020</p>
+                    <p>Site: https://drgabriel.med.br/</p>
+                    <br>
+
+                    <h4>Rosana Mazzon:</h4>
+                    <p>WhatsApp: (11) 99801-1609</p>
+                    <p>Endereço: Rua Serra de Bragança, 1055 - Cj. 601 - Vila Gomes Cardim</p>
+                    <p>São Paulo - SP</p>
+                    <p>Site: https://rosanamazzon.com.br/</p>
+                    <br>
+            </div>
+            <div class="arrow11" id="toggleArrow11">&#9660;</div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container12" onclick="toggleLorem12()" style="width: 100%; background-color: white; border: 2px solid #c90000; border-radius: 20px; padding-top: 1%; padding-bottom: 1%;">
+        <div class="word-container12" id="wordContainer12">
+            <span class="text12" style="padding-left: 1%; padding-bottom: 1%; padding-top: 1%;"><h2>Tremor Essencial</h2></span>
+            <div class="lorem12 hidden12">
+                <h3>Aqui estão listados 5 locais de tratamento para Tremor Essencial em São Paulo - SP:</h3>
+                <br>
+
+                <h4>Rede D'or São Luiz:</h4>
+                    <p>Telefone: 3003-3230</p>
+                    <p>Endereço: Rua das Perobas, 344 - Jabaquara (Hospital São Luiz Jabaquara)</p>
+                    <p>São Paulo - SP | CEP: 04321-120</p>
+                    <p>Site: https://www.rededorsaoluiz.com.br/</p>
+                    <br>
+
+                    <h4>Dra. Carina França:</h4>
+                    <p>Telefone: (11) 3564-8065</p>
+                    <p>WhatsApp: (11) 94041-4718</p>
+                    <p>Endereço: Rua Oscar Freire, 2250 - Conjuntos 116 e 117 - Pinheiros</p>
+                    <p>São Paulo - SP | CEP: 05409-012</p>
+                    <p>Site: https://neurologiasaopaulo.com.br/</p>
+                    <br>
+
+                    <h4>Dr. Rubens Gisbert Cury:</h4>
+                    <p>Telefone: (11) 3159-0293 ou (11) 2338-0495</p>
+                    <p>WhatsApp: (11) 97473-0293</p>
+                    <p>Endereço: Rua Cristiano Viana, 328, cj 201 - Pinheiros</p>
+                    <p>São Paulo/SP</p>
+                    <p>Site: https://rubenscury.com.br/</p>
+                    <br>
+
+                    <h4>Dr. Victor Barboza:</h4>
+                    <p>Telefone: (11) 3522-9515</p>
+                    <p>E-mail: contato@victorbarboza.com.br</p>
+                    <p>Endereço: Av Ibirapuera 2907, Conjunto 1618</p>
+                    <p>São Paulo/SP</p>
+                    <p>Site: https://victorbarboza.com.br/</p>
+                    <br>
+
+                    <h4>Dr. Eberval Gadelha Figueiredo:</h4>
+                    <p>Telefone: (11) 3284-0817</p>
+                    <p>WhatsApp: (11) 94342-3324</p>
+                    <p>Endereço: Av. Paulista, 91 - 4º andar - cj 404 - Bela Vista</p>
+                    <p>São Paulo - SP | CEP: 01311-000</p>
+                    <p>Site: https://drebervalgadelha.com.br/</p>
+                    <br>
+            </div>
+            <div class="arrow12" id="toggleArrow12">&#9660;</div>
+        </div>
+    </div></blockquote>
+    <br><br>
+   
+   
+   
+    
+
+  
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="logo7.png" alt="Logo ComfortCares">
+            </div>
+            <div class="footer-column">                
+                <p>COLABORE COM A PÁGINA</p>
+                <p><a href="cadastre-se.html" class="btn-cadastro">Cadastre-se</a> 
+                </p>
+            </div>
+            <div class="footer-column">
+                <p>CONHEÇA NOSSA PÁGINA</p>
+                <li>
+                    <a href="index.html">Home</a><br>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a><br>
+                </li>
+                <li>
+                    <a href="comunidade.html">Comunidade</a><br>
+                </li>
+                <li>
+                <a href="quemsomos.html">Quem Somos</a>
+                </li>
+            </div>
+            <div class="footer-column">
+                <p>CONTATO</p>
+                <p><img src="img_home/ic-email-footer.png" alt="Email Icon"><a href="mailto:comfort.cares11@gmail.com" class="contact-icon"> comfort.cares11@gmail.com</p></a>
+                <p><img src="img_home/ic-whatsapp-footer.png" alt="whatsapp Icon"><a href="https://api.whatsapp.com/send?phone=5511999812000" target="_blank" class="contact-icon"> (11)98612-5421</p></a>
+                <p><img src="img_home/ic-telefone-footer.png" alt="Telefone Icon" class="contact-icon">(11)3001-4999</p>
+            </div>
+        </div>
+        <p> 2024 - Todos os direitos reservados ao ComfortCares</p>
+    </footer>
+    <script>
+        function clickMenu() {
+    const menu = document.getElementById('itens');
+    const signupLink = document.querySelector('a[href="cadastro.html"]');
+    const loginLink = document.querySelector('a[href="login.html"]');
+
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+        signupLink.style.display = 'none';
+        loginLink.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+        signupLink.style.display = 'block';
+        loginLink.style.display = 'block';
+    }
+}
+
+/*function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }*/
+
+
+function toggleLorem() {
+    const loremText = document.querySelector('.lorem');
+    const arrow = document.getElementById('toggleArrow');
+
+    if (loremText.classList.contains('hidden')) {
+        loremText.classList.remove('hidden');
+        arrow.classList.add('arrow-up'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden');
+        arrow.classList.remove('arrow-up'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem2() {
+    const loremText = document.querySelector('.lorem2');
+    const arrow = document.getElementById('toggleArrow2');
+
+    if (loremText.classList.contains('hidden2')) {
+        loremText.classList.remove('hidden2');
+        arrow.classList.add('arrow-up2'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden2');
+        arrow.classList.remove('arrow-up2'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem3() {
+    const loremText = document.querySelector('.lorem3');
+    const arrow = document.getElementById('toggleArrow3');
+
+    if (loremText.classList.contains('hidden3')) {
+        loremText.classList.remove('hidden3');
+        arrow.classList.add('arrow-up3'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden3');
+        arrow.classList.remove('arrow-up3'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem4() {
+    const loremText = document.querySelector('.lorem4');
+    const arrow = document.getElementById('toggleArrow4');
+
+    if (loremText.classList.contains('hidden4')) {
+        loremText.classList.remove('hidden4');
+        arrow.classList.add('arrow-up4'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden4');
+        arrow.classList.remove('arrow-up4'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem5() {
+    const loremText = document.querySelector('.lorem5');
+    const arrow = document.getElementById('toggleArrow5');
+
+    if (loremText.classList.contains('hidden5')) {
+        loremText.classList.remove('hidden5');
+        arrow.classList.add('arrow-up5'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden5');
+        arrow.classList.remove('arrow-up5'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem6() {
+    const loremText = document.querySelector('.lorem6');
+    const arrow = document.getElementById('toggleArrow6');
+
+    if (loremText.classList.contains('hidden6')) {
+        loremText.classList.remove('hidden6');
+        arrow.classList.add('arrow-up6'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden6');
+        arrow.classList.remove('arrow-up6'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem7() {
+    const loremText = document.querySelector('.lorem7');
+    const arrow = document.getElementById('toggleArrow7');
+
+    if (loremText.classList.contains('hidden7')) {
+        loremText.classList.remove('hidden7');
+        arrow.classList.add('arrow-up7'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden7');
+        arrow.classList.remove('arrow-up7'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem8() {
+    const loremText = document.querySelector('.lorem8');
+    const arrow = document.getElementById('toggleArrow8');
+
+    if (loremText.classList.contains('hidden8')) {
+        loremText.classList.remove('hidden8');
+        arrow.classList.add('arrow-up8'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden8');
+        arrow.classList.remove('arrow-up8'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem9() {
+    const loremText = document.querySelector('.lorem9');
+    const arrow = document.getElementById('toggleArrow9');
+
+    if (loremText.classList.contains('hidden9')) {
+        loremText.classList.remove('hidden9');
+        arrow.classList.add('arrow-up9'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden9');
+        arrow.classList.remove('arrow-up9'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem10() {
+    const loremText = document.querySelector('.lorem10');
+    const arrow = document.getElementById('toggleArrow10');
+
+    if (loremText.classList.contains('hidden10')) {
+        loremText.classList.remove('hidden10');
+        arrow.classList.add('arrow-up10'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden10');
+        arrow.classList.remove('arrow-up10'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem11() {
+    const loremText = document.querySelector('.lorem11');
+    const arrow = document.getElementById('toggleArrow11');
+
+    if (loremText.classList.contains('hidden11')) {
+        loremText.classList.remove('hidden11');
+        arrow.classList.add('arrow-up11'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden11');
+        arrow.classList.remove('arrow-up11'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+function toggleLorem12() {
+    const loremText = document.querySelector('.lorem12');
+    const arrow = document.getElementById('toggleArrow12');
+
+    if (loremText.classList.contains('hidden12')) {
+        loremText.classList.remove('hidden12');
+        arrow.classList.add('arrow-up12'); // Adiciona a classe para rotacionar a seta para cima
+    } else {
+        loremText.classList.add('hidden12');
+        arrow.classList.remove('arrow-up12'); // Remove a classe para voltar a seta para baixo
+    }
+}
+
+
+
+    </script>
+</body>
+</html>
